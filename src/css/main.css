@@ -1,0 +1,35 @@
+main{
+    transform: translateY(75px);
+    /* border: solid 2px black; */
+    
+}
+
+
+#sec1{
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content:center;
+    gap: 5%;
+    align-items: center;
+}
+#cta{
+    width: 35%;
+    /* border: solid 1px black; */
+}
+.title{
+
+}
+.descricao{
+
+}
+#banner{
+    width: 35%;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* border: solid 1px black; */
+}
+.imgBanner{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
