@@ -12,14 +12,14 @@ body {
 
 header {
     z-index: 9999;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    transform: translate();
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);    
     position: fixed;
     box-sizing: border-box;
     padding: 1% 5% 1% 5%;
     width: 100%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    background-color: beige;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
     /* border: solid 1px black; */
 }   
 
@@ -28,7 +28,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     
-
 }
 
 .logoMobile{
