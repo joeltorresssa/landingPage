@@ -1,0 +1,30 @@
+@keyframes animacaoSeta {
+    0% {
+        transform: rotateY(180deg) scale(1);
+    }
+
+    100% {
+        transform: rotateY(180deg) scale(1.5);
+    }
+}
+
+@keyframes animacaoTi {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes animacaoBanner {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.06);
+    }
+
+}
