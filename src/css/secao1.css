@@ -2,6 +2,7 @@
 
 
 #sec1 {    
+    
     margin: 0 auto;  
     /* height: calc(100vh - 52.61px); */
     display: flex;
@@ -29,29 +30,46 @@
     
     
 }
-
-.span1 {    
-    display: inline-block;
+.span1,.span2{
+    display: block;
+    line-height: 1.1;
+    color: #32388e;
     font-size: 5rem;
+    text-align: left;
+    font-weight: bold; 
+}
+.span1{
+    
+    color: #D14905;
+    animation: animacaoTi 0.8s ease-in-out infinite alternate;
+}
+.span2{
+    font-size: 3.5rem;
+}
+
+/* .span1 {    
+    display: inline-block;
+    font-size: 6rem;
     color: orange;
     animation: animacaoTi 0.8s ease-in-out infinite alternate;
-    font-weight: 750;
+    font-weight: bold;
 }
 
 .span2{
     color: rgb(79, 79, 160);
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: left;
-    font-weight: 650;   
-}
+    font-weight: bold;   
+} */
 
 .descricao {
+    line-height: 1.5;
     font-weight: 450;
     width: 70%;
-    color: rgb(79, 79, 160);
+    color: #28317F;
     text-align: left;
-    padding: 2% 0 6%;
-    font-size: clamp(13px, calc(5.455px + 0.795vw), 15px);
+    padding: 8% 0 8%;
+    font-size: 1.5rem
 }
 #shape{
     top: 0;
@@ -111,27 +129,29 @@ input {
 }
 
 .contato {
-    font-family: "Poppins", sans-serif;
-    font-size: clamp(10px, calc(7.818px + 0.682vw), 16px);
+    border: none;
+    font-size: 2rem;
     font-weight: bold;
-    width: 100%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     color: white;
-    padding: 10px;
-    background: linear-gradient(to right, rgb(4, 106, 189), rgb(120, 182, 233));
+    padding: 15px 10px;
+    background: linear-gradient(to right, #32388e, #1871b8);
     border: none;
+    gap: 20px;
 
 }
 
 .zap {
+    color: white;
     box-sizing: border-box;
     width: clamp(10px, calc(4.545px + 1.705vw), 25px);
-    margin-right: 5px;
-
+    
 }
+
 
 .contato:hover {
     cursor: pointer;
@@ -277,6 +297,133 @@ input{
     }
 } */
 
-@media (max-width: 575px){
+@media (max-width: 480px){
+
+    #sec1{
+        
+        flex-direction: column;
+        /* border: solid 1px black; */
+        
+    }
+    #headline{
+        /* border: solid 1px black; */
+       align-items: center;
+       width: 100%;
+    }
+    .span1{
+    
+        font-size: 3.7rem;
+    }
+    .span2{
+        line-height: 1.2;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .descricao{
+        text-align: center;
+        line-height: 1.5;
+        padding: 4% 0 4%;
+        font-size: 1.3rem;
+    }
+    .contato{   
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.4rem;
+        gap: 10px;
+    }
+    .micro-texto{
+        
+        text-align: center;
+        font-size: 1.2rem;
+        
+    }
+    #banner{
+        margin-top: 15px;
+        width: 75%;
+    }
+
+}
+@media (min-width: 481px) and (max-width:768px){
+     #sec1{
+        flex-direction: column;
+        /* border: solid 1px black; */
+        
+    }
+    #headline{
+       
+       width: 100%;
+    }
+    .span1{
+        align-self: center;
+        font-size: 5rem;
+    }
+    .span2{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .descricao{
+        align-self: center;
+        text-align: center;
+        padding: 4% 0 4%;
+        font-size: 2rem;
+    }
+    .contato{
+        margin: 0 auto;    
+        width: 85%;
+        font-size: 1.4rem;
+        gap: 10px;
+    }
+    .micro-texto{
+        text-align: center;        
+        font-size: 2rem;
+        
+    }
+    #banner{
+       margin-top: 15px;
+        width: 75%;
+    }
+
+}
+@media (min-width: 482px) and (max-width:1280px){
+ #sec1{
+        flex-direction: column;
+        /* border: solid 1px black; */
+        
+    }
+    #headline{
+       
+       width: 100%;
+    }
+    .span1{
+        align-self: center;
+        font-size: 5rem;
+    }
+    .span2{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .descricao{
+        align-self: center;
+        text-align: center;
+        padding: 4% 0 4%;
+        font-size: 2rem;
+    }
+    .contato{
+        margin: 0 auto;    
+        width: 85%;
+        font-size: 1.4rem;
+        gap: 10px;
+    }
+    .micro-texto{
+        text-align: center;        
+        font-size: 2rem;
+        
+    }
+    #banner{
+       margin-top: 15px;
+        width: 75%;
+    }
 
 }
