@@ -17,7 +17,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 1700px;
-    margin-top: 40px;
+    margin-top: 4%;
     /* max-width: 1250px; */
     display: flex;
     /* justify-content: center; */
@@ -30,7 +30,7 @@ section{
     padding: 1% 5%;
 }
 .micro-texto{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 12px;
     color: rgb(79, 79, 160);
     opacity: 0.8;
