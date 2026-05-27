@@ -34,12 +34,11 @@
     display: block;
     line-height: 1.1;
     color: #32388e;
-    font-size: 5rem;
     text-align: left;
     font-weight: bold; 
 }
 .span1{
-    
+    font-size: 5rem;
     color: #D14905;
     animation: animacaoTi 0.8s ease-in-out infinite alternate;
 }
