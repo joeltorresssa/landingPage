@@ -147,7 +147,7 @@ input {
 .zap {
     color: white;
     box-sizing: border-box;
-    width: clamp(10px, calc(4.545px + 1.705vw), 25px);
+    width: clamp(30px, calc(22.727px + 2.273vw), 50px);
     
 }
 
@@ -405,7 +405,7 @@ input{
         font-size: 1.2rem;
     }
     .contato{
-        width: 60%;
+        width: 70%;
         font-size: 1.4rem;
         gap: 10px;
     }
@@ -419,6 +419,12 @@ input{
        width: 60%;
        
     }
+    .zap {
+    color: white;
+    box-sizing: border-box;
+    width: 35px;
+    
+}
 }
 @media (min-width: 1025px) and (max-width: 1440px){
      #headline{
@@ -436,7 +442,7 @@ input{
         font-size: 1.4rem;
     }
     .contato{
-        width: 60%;
+        width: 78.7%;
         font-size: 2.5rem;
         gap: 10px;
     }
