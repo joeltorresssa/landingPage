@@ -1,5 +1,5 @@
 #sec2 {
-    padding-top: 4%;
+    padding-top: 10%;
     /* border: solid 1px black; */
 
     width: 100%;
@@ -8,15 +8,19 @@
 }
 
 #title-sec2 {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 3.5rem;
-    font-weight: bold; 
-    color: #32388e;
-    width: 50%;
-    height: 70px;
-    /* border: solid 1px black; */
 
+    width: 50%;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+}
+
+#title-sec2 span {
+    display: block;
+    line-height: 1.1;
+    text-align: center;
+    color: #32388e;
+    font-weight: bold;
+    font-size: var(--titulo-medio);
 }
 
 #motivos {
@@ -26,7 +30,9 @@
     gap: 10%;
 }
 
-.mot1, .mot2, .mot3 {
+.mot1,
+.mot2,
+.mot3 {
     border-radius: 12px;
     /* padding-top: 1%;
     gap: 4%; */
@@ -37,7 +43,7 @@
     width: 25%;
     height: 300px;
     /* border: solid 1px black; */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19);
 
 }
 
@@ -46,17 +52,17 @@
 
 }
 
-.img-mot img{
+.img-mot img {
     box-sizing: border-box;
     object-fit: contain;
-    width:100%;
+    width: 100%;
     /* border: solid 1px black; */
 }
 
 .tit-mot {
     display: flex;
     align-items: center;
-    
+
     /* border: solid 1.5px rgb(190, 34, 34); */
     width: 90%;
     height: 18%;
@@ -65,11 +71,12 @@
 
 
 }
-.tit-mot h1{  
+
+.tit-mot h1 {
     width: 100%;
     text-align: center;
-   
-   /* border: solid 1px black; */
+
+    /* border: solid 1px black; */
 }
 
 .desc-mot {
@@ -77,8 +84,99 @@
     width: 90%;
     height: 30%
 }
-.desc-mot p{
+
+.desc-mot p {
     line-height: 1.3;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.contato-dobra2 {
+    margin: 3% auto;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 10px;
+    background: linear-gradient(to right, #32388e, #1871b8);
+    border: none;
+    gap: 20px;
+
+}
+
+.zap-dobra2 {
+    color: white;
+    box-sizing: border-box;
+    width: clamp(30px, calc(22.727px + 2.273vw), 50px);
+    
+}
+
+
+.contato-dobra2:hover {
+    cursor: pointer;
+    background-color: rgb(111, 179, 235);
+
+}
+
+@media (max-width: 480px) {
+
+    #title-sec2 span {
+        font-size: 2.2rem;
+    }
+    #title-sec2{
+        width: 80%;
+    }
+
+    #motivos {
+        margin: 0 auto;
+        border: solid 1px black;
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        gap: 50%;
+    }
+
+    .mot1,
+    .mot2,
+    .mot3 {
+        
+        
+        
+        
+        
+       
+        width: 80%;
+      
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+    #title-sec2 span {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    #title-sec2 span {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #title-sec2 span {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    #title-sec2 span {
+        font-size: 3rem;
+    }
 }

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --titulo-grande: 5rem;
+    --titulo-medio: 3.5rem;
+}
+
 html{
     font-size: 62.5%;
 }

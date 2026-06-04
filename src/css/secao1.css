@@ -35,15 +35,15 @@
     line-height: 1.1;
     color: #32388e;
     text-align: left;
-    font-weight: bold; 
+    font-weight: bold;
 }
 .span1{
-    font-size: 5rem;
+    font-size: var(--titulo-grande);
     color: #D14905;
     animation: animacaoTi 0.8s ease-in-out infinite alternate;
 }
 .span2{
-    font-size: 3.5rem;
+    font-size: var(--titulo-medio);
 }
 
 /* .span1 {    
@@ -299,7 +299,7 @@ input{
 @media (max-width: 480px){
 
     #sec1{
-        
+        padding-top: 10%;
         flex-direction: column;
         /* border: solid 1px black; */
         
@@ -446,11 +446,7 @@ input{
         font-size: 2.5rem;
         gap: 10px;
     }
-    .micro-texto{
-              
-        
-        
-    }
+  
     #banner{
        margin-top: 15px;
        width: 65%;
@@ -477,11 +473,7 @@ input{
         font-size: 2.5rem;
         gap: 10px;
     }
-    .micro-texto{
-              
-        
-        
-    }
+  
     #banner{
        margin-top: 15px;
        width: 65%;
